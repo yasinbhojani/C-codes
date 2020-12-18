@@ -28,7 +28,9 @@ int checkPrime(int x) //function defention.
             break;
         }
         else
+        {
             flag = 0;
+        }
     }
     return flag; // returning value to main function from checkPrime function.
 }
