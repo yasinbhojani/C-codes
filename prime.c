@@ -23,8 +23,10 @@ int checkPrime(int x) //function defention.
     for (i = 2; i <= x / 2; i++) //checking whether given number is prime or composite.
     {
         if (x % i == 0)
+        {    
             flag = 1;
             break;
+        }
         else
             flag = 0;
     }
