@@ -24,6 +24,7 @@ int checkPrime(int x) //function defention.
     {
         if (x % i == 0)
             flag = 1;
+            break;
         else
             flag = 0;
     }
